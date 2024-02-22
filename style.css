@@ -1,0 +1,121 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0; 
+  }
+
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    background-color: #111827;
+    width: 260px;
+    padding: 24px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+
+  .main-content {
+    background-color: #111827;
+    flex-grow: 1;
+  }
+  .sidebar .description-header {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .sidebar a {
+    text-decoration: none;
+  }
+  .sidebar .header .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  .sidebar .header .list-item .icon {
+    margin-right: 12px;
+  }
+  .sidebar .header .illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 10px 0 22px 0;
+    box-sizing: border-box;
+  }
+  .sidebar .main .list-item .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .sidebar .main .list-item .icon {
+    margin-right: 12px;
+  }
+  .sidebar .main .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 212px;
+    box-sizing: border-box;
+  }
+  .sidebar .main .list-item:hover {
+    background: red;
+    transition: all ease-in .1s;
+  }
+  .home {
+    padding: 50px 180px;
+    margin-top: 150px;
+  }
+  .home h1 {
+    color: white;
+    font-size: 2.8rem;
+  }
+  .home .lav {
+    color: red;
+    margin-left: 250px;
+    align-items: center;
+    justify-content: center;
+  }
+  .profil {
+    padding: 50px 10px;
+    margin-left
+  }
+    
+  .cards {
+   display: grid;
+   list-style-type:none;
+    margin-left: 90px;
+    margin-top: 70px;
+    padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+  .cards .radit {
+    margin-top: 15px;
+    margin-left: 25px;
+    color: #fff;
+  }
+  .cards .mirza {
+    margin-top: 15px;
+    margin-left: 32px;
+    color: #fff;
+  }
+  .cards .rizqi {
+    margin-top: 15px;
+    margin-left: 35px;
+    color: #fff;
+  }
